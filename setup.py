@@ -169,7 +169,7 @@ setup(
                 'restview',
                 'Sphinx',
                 'sphinx-rtd-theme',
-                'requests-mock==1.8.0'],
+                'requests-mock<1.9.0'],
     },
 
     # any data files placed outside this package.

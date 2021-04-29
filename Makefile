@@ -92,7 +92,7 @@ develop:
 	@echo "--------------------------------------------------------------------"
 	@echo "Building and installing $(PKG_NAME) development distributable: $@"
 	@echo ""
-	@pip install f5-icontrol-rest requests_mock==1.8.0 requests dicttoxml
+	@pip install f5-icontrol-rest requests_mock<1.9.0 requests dicttoxml
 	@./setup.py develop --no-deps -q
 
 	@echo ""
