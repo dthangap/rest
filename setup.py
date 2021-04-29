@@ -158,7 +158,6 @@ setup(
     install_requires =  [
         'requests >= 1.15.1',
         'dicttoxml',
-        'requests_mock',
         'f5-icontrol-rest',
         'genie'
     ],
@@ -170,7 +169,7 @@ setup(
                 'restview',
                 'Sphinx',
                 'sphinx-rtd-theme',
-                'requests-mock'],
+                'requests-mock==1.8.0'],
     },
 
     # any data files placed outside this package.
